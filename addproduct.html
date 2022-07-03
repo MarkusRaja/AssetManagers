@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adding Assets</title>
+        <link href="style3.css" rel="stylesheet" type="text/css" />
+        
+    </head>
+    <body onload="checkingidpass()">
+        
+        <form>
+            <h1 id="font">Adding your New Asset</h1>
+            <label id="font2">Name of Asset:</label><br>
+            <input type="text" id="asset_name" placeholder="Input the Name"><br>
+            <label id="font2">Picture of Services:</label><br>
+            <input type="file" id="asset"><br>
+            <input type="button" onclick="addS()" value="Add Now">
+        </form>
+        <div id="checkaja"></div>
+        <div id="checkaja1"></div>
+        <div id="blockanythingside" class="modal">
+            <div class="modal-content animate" method="post">
+            <h1 id="font">Please Register and Login your self first</h1>
+            <input type="submit" onclick="regpage()" value="REGISTER">
+            </div>
+        </div>
+        <script src="script1.js" type="text/javascript"></script>
+    </body>
+    
+</html>
